@@ -2,17 +2,6 @@ var students = [
     {
         lname: "Perez",
         name: "Elvis Josue",
-        age: 26,
-        birthday: {
-            year: 2000,
-            month: "November",
-            day: 19
-        },
-        career: "IDYGS"
-    },
-    {
-        lname: "Morales",
-        name: "Josue",
         age: 21,
         birthday: {
             year: 2000,
@@ -20,7 +9,8 @@ var students = [
             day: 19
         },
         career: "IDYGS"
-    }
+    },
+    
 ]
 
 var table = document.getElementsByTagName("table")[0];
