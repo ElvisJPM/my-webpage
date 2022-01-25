@@ -9,6 +9,17 @@ var students = [
             day: 19
         },
         career: "IDYGS"
+    },
+    {
+        lname: "Morales",
+        name: "Josue",
+        age: 21,
+        birthday: {
+            year: 2000,
+            month: "November",
+            day: 19
+        },
+        career: "IDYGS"
     }
 ]
 
@@ -25,5 +36,5 @@ for (var i = 0; i < students.length; i++) {
     tdage.innerText = students[i].age;
     tdcareer.innerText = students[i].career;
 
-    table.append(templ);
+    table.append(templ); 
 }
